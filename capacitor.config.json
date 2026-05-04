@@ -1,0 +1,25 @@
+{
+  "appId": "com.flickx.app",
+  "appName": "FlickX",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#080810",
+    "buildOptions": {
+      "keystorePath": null,
+      "keystoreAlias": null
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#080810",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
+}
